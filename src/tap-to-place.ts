@@ -26,7 +26,7 @@ ecs.registerComponent({
       const newEid = world.createEntity(schema.prefab)
       const newEntity = world.getEntity(newEid)
       newEntity.setLocalPosition(e.data.worldPosition)
-      newEntity.set(ecs.Quaternion, ecs.math.quat.yRadians(Math.random() * Math.PI))
+      // newEntity.set(ecs.Quaternion, ecs.math.quat.yRadians(Math.random() * Math.PI))
       // Increment the placement counter
       placementCounts.set(eid, currentCount + 1)
       world.events.dispatch(eid, OBJECT_PLACED_EVENT)
@@ -36,4 +36,16 @@ ecs.registerComponent({
 
 export {
   OBJECT_PLACED_EVENT,
+}
+
+// Reset placement counters. If `eid` is provided, reset only that entry,
+// otherwise reset all stored counts to zero.
+export function resetPlacementCounts(eid?: number) {
+  if (typeof eid === 'number') {
+    placementCounts.set(eid, 0)
+    return
+  }
+  for (const key of placementCounts.keys()) {
+    placementCounts.set(key, 0)
+  }
 }

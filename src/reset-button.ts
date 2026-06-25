@@ -1,6 +1,6 @@
 import * as ecs from '@8thwall/ecs'
 import { Logo } from './logo'
-import { OBJECT_PLACED_EVENT } from './tap-to-place'
+import { OBJECT_PLACED_EVENT, resetPlacementCounts } from './tap-to-place'
 
 const logoQuery = ecs.defineQuery([Logo])
 
@@ -19,6 +19,8 @@ ecs.registerComponent({
     defineState('resetting')
       .wait(1000, 'nothing-placed')
       .onEnter(() => {
+      // Reset placement counters when resetting begins
+      resetPlacementCounts()
       const tempVector = ecs.math.vec3.zero();
         logoQuery(world).forEach(e => {
           world.transform.getLocalPosition(e, tempVector)

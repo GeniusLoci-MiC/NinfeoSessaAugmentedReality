@@ -251,9 +251,9 @@
           "parameters": {
             "prefab": {
               "type": "entity",
-              "id": "b534657a-38e6-4275-a37d-77b655561d5b"
+              "id": "1d030da3-9e4b-4e85-a1fd-11b326d96840"
             },
-            "maxPlacedObjects": 4
+            "maxPlacedObjects": 1
           }
         }
       },
@@ -555,6 +555,86 @@
       "order": 14.958687422311806,
       "ui": {
         "type": "overlay"
+      }
+    },
+    "1d030da3-9e4b-4e85-a1fd-11b326d96840": {
+      "id": "1d030da3-9e4b-4e85-a1fd-11b326d96840",
+      "position": [
+        0,
+        0,
+        0
+      ],
+      "rotation": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "components": {
+        "92cc446e-2931-499b-9be0-0472f042433a": {
+          "id": "92cc446e-2931-499b-9be0-0472f042433a",
+          "name": "logo",
+          "parameters": {}
+        }
+      },
+      "name": "Ninfeo",
+      "order": 8.599486645057333,
+      "shadow": {
+        "castShadow": true
+      },
+      "prefab": true
+    },
+    "538e3a18-0f51-4a2f-a8a3-ac040f09ce05": {
+      "id": "538e3a18-0f51-4a2f-a8a3-ac040f09ce05",
+      "position": [
+        0,
+        0,
+        0
+      ],
+      "rotation": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "parentId": "1d030da3-9e4b-4e85-a1fd-11b326d96840",
+      "components": {
+        "a2c75775-5a0f-44d7-910c-c111bc850bf6": {
+          "id": "a2c75775-5a0f-44d7-910c-c111bc850bf6",
+          "name": "position-animation",
+          "parameters": {
+            "fromY": -6,
+            "loop": false,
+            "easeOut": true,
+            "easingFunction": "Quadratic",
+            "duration": 5000,
+            "toY": 0,
+            "easeIn": false
+          }
+        }
+      },
+      "name": "Model",
+      "order": 1.1209803013844988,
+      "gltfModel": {
+        "src": {
+          "type": "asset",
+          "asset": "assets/ninfeo_sessa_senza_statua.glb"
+        },
+        "animationClip": "",
+        "loop": true
+      },
+      "shadow": {
+        "castShadow": true
       }
     }
   },
