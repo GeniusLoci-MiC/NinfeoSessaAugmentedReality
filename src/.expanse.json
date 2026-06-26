@@ -32,45 +32,6 @@
       },
       "prefab": true
     },
-    "492cfe2c-9334-4a9c-a48a-be80132af9fb": {
-      "id": "492cfe2c-9334-4a9c-a48a-be80132af9fb",
-      "position": [
-        5,
-        25,
-        5
-      ],
-      "rotation": [
-        0,
-        0,
-        0,
-        1
-      ],
-      "scale": [
-        1,
-        1,
-        1
-      ],
-      "geometry": null,
-      "material": null,
-      "parentId": "84028e73-ee70-412d-b8d4-c09bf07c655c",
-      "components": {},
-      "light": {
-        "type": "directional",
-        "shadowBias": 0,
-        "shadowRadius": 2,
-        "followCamera": false,
-        "shadowCamera": [
-          -10,
-          10,
-          10,
-          -10,
-          0.5,
-          200
-        ]
-      },
-      "name": "Directional Light",
-      "order": 0.6785011504707911
-    },
     "87113aa9-b52e-4fba-b937-63fbec393fa9": {
       "id": "87113aa9-b52e-4fba-b937-63fbec393fa9",
       "position": [
@@ -98,7 +59,8 @@
         "intensity": 1
       },
       "name": "Ambient Light",
-      "order": 1.2491958667939822
+      "order": 1.2491958667939822,
+      "hidden": true
     },
     "52ba8a86-a459-4df8-b954-a570e85e0484": {
       "id": "52ba8a86-a459-4df8-b954-a570e85e0484",
@@ -636,6 +598,66 @@
       "shadow": {
         "castShadow": true
       }
+    },
+    "a892e0ce-9e87-4ac7-b17d-2b8458e29b8e": {
+      "id": "a892e0ce-9e87-4ac7-b17d-2b8458e29b8e",
+      "position": [
+        0,
+        0,
+        0
+      ],
+      "rotation": [
+        0.9427642097783299,
+        -0.05175768558995508,
+        -0.2792594815036026,
+        0.17473101823594914
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "geometry": null,
+      "material": null,
+      "parentId": "84028e73-ee70-412d-b8d4-c09bf07c655c",
+      "components": {},
+      "light": {
+        "type": "directional",
+        "intensity": 0.5,
+        "color": "#ffffff"
+      },
+      "name": "Directional Light",
+      "order": 18.0294978495664
+    },
+    "6be67174-661d-4679-b4f5-e78cf07304ce": {
+      "id": "6be67174-661d-4679-b4f5-e78cf07304ce",
+      "position": [
+        0,
+        0,
+        0
+      ],
+      "rotation": [
+        0.8950467519564866,
+        0.008540461850136006,
+        0.2420709699157796,
+        0.3744596344702181
+      ],
+      "scale": [
+        1.000000000000003,
+        1.0000000000000384,
+        1.0000000000000355
+      ],
+      "geometry": null,
+      "material": null,
+      "components": {},
+      "light": {
+        "type": "directional",
+        "intensity": 0.5,
+        "color": "#ffffff"
+      },
+      "name": "Directional Light (1)",
+      "order": 19.617889136420164,
+      "parentId": "84028e73-ee70-412d-b8d4-c09bf07c655c"
     }
   },
   "spaces": {
