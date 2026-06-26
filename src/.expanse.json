@@ -28,7 +28,7 @@
       },
       "name": "Ambient Light",
       "order": 1.2491958667939822,
-      "hidden": true
+      "hidden": false
     },
     "52ba8a86-a459-4df8-b954-a570e85e0484": {
       "id": "52ba8a86-a459-4df8-b954-a570e85e0484",
@@ -104,7 +104,8 @@
         "stackingOrder": 100
       },
       "name": "Loading Screen",
-      "order": 16.570036688545937
+      "order": 16.570036688545937,
+      "disabled": true
     },
     "2f4186f0-5825-4b3c-868a-24bc7945a328": {
       "id": "2f4186f0-5825-4b3c-868a-24bc7945a328",
@@ -747,7 +748,7 @@
       "parentId": "84028e73-ee70-412d-b8d4-c09bf07c655c",
       "components": {},
       "name": "Lights",
-      "order": 21.359300433813193
+      "order": 1.8168651715230077
     },
     "941f5043-dc38-4c1f-81b9-61fc2b60a43f": {
       "id": "941f5043-dc38-4c1f-81b9-61fc2b60a43f",
@@ -770,7 +771,15 @@
       "geometry": null,
       "material": null,
       "parentId": "84028e73-ee70-412d-b8d4-c09bf07c655c",
-      "components": {},
+      "components": {
+        "3c518c93-81c9-42d1-b220-6f41978eb83e": {
+          "id": "3c518c93-81c9-42d1-b220-6f41978eb83e",
+          "name": "info-panel-button",
+          "parameters": {
+            "navigationUrl": "http://www.babeledunnit.org"
+          }
+        }
+      },
       "ui": {
         "type": "3d",
         "width": 100,
