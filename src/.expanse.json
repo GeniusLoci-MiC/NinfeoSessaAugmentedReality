@@ -1,230 +1,5 @@
 {
   "objects": {
-    "a92ca154-1d09-4b62-9db0-0154e698a71d": {
-      "id": "a92ca154-1d09-4b62-9db0-0154e698a71d",
-      "position": [
-        -0.30000000000000027,
-        3.257991186783551,
-        0.20000000000000065
-      ],
-      "rotation": [
-        0,
-        0,
-        0,
-        1
-      ],
-      "scale": [
-        1.5,
-        1.5,
-        1.5
-      ],
-      "geometry": null,
-      "material": null,
-      "components": {
-        "3c518c93-81c9-42d1-b220-6f41978eb83e": {
-          "id": "3c518c93-81c9-42d1-b220-6f41978eb83e",
-          "name": "info-panel-button",
-          "parameters": {
-            "navigationUrl": "https://skfb.ly/pLvrG"
-          }
-        }
-      },
-      "ui": {
-        "type": "3d",
-        "width": 100,
-        "height": 36,
-        "background": "#ad50ff",
-        "borderRadius": 18,
-        "flexDirection": "column",
-        "backgroundOpacity": 1,
-        "padding": "10",
-        "gap": 19,
-        "alignItems": "center",
-        "justifyContent": "flex-start"
-      },
-      "name": "InfoButton",
-      "order": -0.6543903346729705,
-      "hidden": false,
-      "prefab": true,
-      "parentId": "1d030da3-9e4b-4e85-a1fd-11b326d96840"
-    },
-    "2467a636-8a6a-4c42-9475-62b3dc48e934": {
-      "id": "2467a636-8a6a-4c42-9475-62b3dc48e934",
-      "position": [
-        0,
-        0,
-        0
-      ],
-      "rotation": [
-        0,
-        0,
-        0,
-        1
-      ],
-      "scale": [
-        1,
-        1,
-        1
-      ],
-      "geometry": null,
-      "material": null,
-      "parentId": "a92ca154-1d09-4b62-9db0-0154e698a71d",
-      "components": {},
-      "name": "Text",
-      "ui": {
-        "width": 50,
-        "height": 14,
-        "text": "Button",
-        "color": "#ffffff",
-        "fontSize": 16,
-        "verticalTextAlign": "center",
-        "textAlign": "center"
-      },
-      "order": 1.3178652951602832,
-      "hidden": false
-    },
-    "9d48146b-d4fe-4443-8e5a-40d69236155f": {
-      "id": "9d48146b-d4fe-4443-8e5a-40d69236155f",
-      "position": [
-        0,
-        0,
-        0
-      ],
-      "rotation": [
-        0,
-        0,
-        0,
-        1
-      ],
-      "scale": [
-        1,
-        1,
-        1
-      ],
-      "geometry": null,
-      "material": null,
-      "parentId": "a92ca154-1d09-4b62-9db0-0154e698a71d",
-      "components": {},
-      "ui": {
-        "flexDirection": "column",
-        "width": 269,
-        "height": 178,
-        "type": "3d",
-        "background": "#ffffff",
-        "backgroundOpacity": 0.5,
-        "alignItems": "center",
-        "justifyContent": "center",
-        "gap": 26
-      },
-      "name": "InfoPanel",
-      "order": 2.4787229914248634,
-      "hidden": false
-    },
-    "183657d8-6d4f-4a1e-8917-cbb818367297": {
-      "id": "183657d8-6d4f-4a1e-8917-cbb818367297",
-      "position": [
-        0,
-        0,
-        0
-      ],
-      "rotation": [
-        0,
-        0,
-        0,
-        1
-      ],
-      "scale": [
-        1,
-        1,
-        1
-      ],
-      "geometry": null,
-      "material": null,
-      "parentId": "9d48146b-d4fe-4443-8e5a-40d69236155f",
-      "components": {},
-      "ui": {
-        "type": "3d",
-        "width": 100,
-        "height": 36,
-        "background": "#ad50ff",
-        "borderRadius": 18,
-        "flexDirection": "row",
-        "backgroundOpacity": 1,
-        "padding": "10",
-        "gap": "6",
-        "alignItems": "center",
-        "justifyContent": "center"
-      },
-      "name": "NavButton",
-      "order": 1.3663488694953054
-    },
-    "be8b1a1f-e033-4d61-b172-da5c3e555b44": {
-      "id": "be8b1a1f-e033-4d61-b172-da5c3e555b44",
-      "position": [
-        0,
-        0,
-        0
-      ],
-      "rotation": [
-        0,
-        0,
-        0,
-        1
-      ],
-      "scale": [
-        1,
-        1,
-        1
-      ],
-      "geometry": null,
-      "material": null,
-      "parentId": "183657d8-6d4f-4a1e-8917-cbb818367297",
-      "components": {},
-      "name": "NavButtonText",
-      "ui": {
-        "width": 50,
-        "height": 14,
-        "text": "Link",
-        "color": "#ffffff",
-        "fontSize": 16
-      },
-      "order": 1.4387501188160754
-    },
-    "c609eefb-4381-4a42-8074-a6fe555b9943": {
-      "id": "c609eefb-4381-4a42-8074-a6fe555b9943",
-      "position": [
-        0,
-        0,
-        0
-      ],
-      "rotation": [
-        0,
-        0,
-        0,
-        1
-      ],
-      "scale": [
-        1,
-        1,
-        1
-      ],
-      "geometry": null,
-      "material": null,
-      "parentId": "9d48146b-d4fe-4443-8e5a-40d69236155f",
-      "components": {},
-      "ui": {
-        "width": 246,
-        "height": 92,
-        "text": "Statua raffigurante il Nilo",
-        "color": "#ffffff",
-        "fontSize": 29,
-        "type": "3d",
-        "textAlign": "left",
-        "verticalTextAlign": "center"
-      },
-      "name": "InfoText",
-      "order": -1.4736938734591576
-    },
     "87113aa9-b52e-4fba-b937-63fbec393fa9": {
       "id": "87113aa9-b52e-4fba-b937-63fbec393fa9",
       "position": [
@@ -399,7 +174,7 @@
       "ui": {
         "text": "Tocca lo schermo per posizionare l'oggetto",
         "width": "100%",
-        "height": 100,
+        "height": 71,
         "type": "overlay",
         "verticalTextAlign": "start",
         "textAlign": "center",
@@ -445,7 +220,7 @@
       "ui": {
         "text": "Tocca lo schermo per posizionare l'oggetto",
         "width": "100%",
-        "height": 100,
+        "height": 72,
         "type": "overlay",
         "verticalTextAlign": "start",
         "textAlign": "center",
@@ -578,7 +353,8 @@
       "ui": {
         "type": "overlay",
         "width": "100%",
-        "height": "100%"
+        "height": "100%",
+        "ignoreRaycast": true
       }
     },
     "1d030da3-9e4b-4e85-a1fd-11b326d96840": {
@@ -893,8 +669,8 @@
     "17b69535-b3f4-464a-96b7-8fd67a9dd0ad": {
       "id": "17b69535-b3f4-464a-96b7-8fd67a9dd0ad",
       "position": [
-        -8.228654929161515,
-        21.57078616351431,
+        -17.7756282998794,
+        4.643637871249666,
         0
       ],
       "rotation": [
@@ -920,7 +696,7 @@
         "backgroundOpacity": 0.5,
         "alignItems": "center",
         "justifyContent": "center",
-        "gap": 35,
+        "gap": 3,
         "paddingTop": 0,
         "paddingBottom": 0,
         "opacity": 1,
@@ -928,13 +704,13 @@
         "position": "absolute",
         "top": "",
         "left": "",
-        "bottom": 20,
+        "bottom": 84,
         "right": ""
       },
       "name": "InfoPanel",
-      "order": 17.693168602818822,
+      "order": 12.064583681443603,
       "hidden": false,
-      "parentId": "84028e73-ee70-412d-b8d4-c09bf07c655c"
+      "parentId": "904308fe-98f5-4c93-bf62-f39d50c6e602"
     },
     "7d0b1616-bcd3-4069-95a0-98d178afb325": {
       "id": "7d0b1616-bcd3-4069-95a0-98d178afb325",
@@ -1029,14 +805,24 @@
       "parentId": "17b69535-b3f4-464a-96b7-8fd67a9dd0ad",
       "components": {},
       "ui": {
-        "width": 246,
+        "text": "Fiume Nilo",
+        "flexDirection": "row",
+        "width": 308,
         "height": 92,
-        "text": "Statua raffigurante il Nilo",
-        "color": "#ffffff",
-        "fontSize": 29,
         "type": "3d",
-        "textAlign": "left",
-        "verticalTextAlign": "center"
+        "alignItems": "center",
+        "justifyContent": "center",
+        "gap": 141,
+        "paddingTop": 6,
+        "paddingBottom": 6,
+        "paddingLeft": 33,
+        "paddingRight": 33,
+        "margin": "",
+        "marginTop": 0,
+        "marginBottom": 0,
+        "marginLeft": 0,
+        "marginRight": 0,
+        "fontSize": 47
       },
       "name": "InfoText",
       "order": -0.8728902973045858
