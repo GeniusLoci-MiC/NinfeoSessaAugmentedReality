@@ -289,88 +289,6 @@
       },
       "order": 2.1029089692509704
     },
-    "c7231d72-b7a3-44ea-b5f5-bb9ea9572ed9": {
-      "id": "c7231d72-b7a3-44ea-b5f5-bb9ea9572ed9",
-      "position": [
-        0,
-        10.938518268367439,
-        -2.5468804365107705
-      ],
-      "rotation": [
-        0,
-        0,
-        0,
-        1
-      ],
-      "scale": [
-        1,
-        1,
-        1
-      ],
-      "geometry": null,
-      "material": null,
-      "parentId": "84028e73-ee70-412d-b8d4-c09bf07c655c",
-      "components": {
-        "f31ef85b-8c9e-41ca-817f-a53bb7000a2d": {
-          "id": "f31ef85b-8c9e-41ca-817f-a53bb7000a2d",
-          "name": "hide-on-ready",
-          "parameters": {}
-        }
-      },
-      "ui": {
-        "flexDirection": "row",
-        "width": "100%",
-        "height": "100%",
-        "type": "overlay",
-        "background": "#000000",
-        "backgroundOpacity": 1,
-        "alignItems": "center",
-        "justifyContent": "center",
-        "stackingOrder": 100
-      },
-      "name": "Loading Screen",
-      "order": 16.570036688545937,
-      "disabled": true
-    },
-    "2f4186f0-5825-4b3c-868a-24bc7945a328": {
-      "id": "2f4186f0-5825-4b3c-868a-24bc7945a328",
-      "position": [
-        0,
-        0,
-        0
-      ],
-      "rotation": [
-        0,
-        0,
-        0,
-        1
-      ],
-      "scale": [
-        1,
-        1,
-        1
-      ],
-      "geometry": null,
-      "material": null,
-      "parentId": "c7231d72-b7a3-44ea-b5f5-bb9ea9572ed9",
-      "components": {},
-      "ui": {
-        "width": 200,
-        "height": 200,
-        "text": "Camera Loading",
-        "color": "#ffffff",
-        "fontSize": 24,
-        "type": "3d",
-        "font": {
-          "type": "font",
-          "font": "Roboto"
-        },
-        "textAlign": "center",
-        "verticalTextAlign": "center"
-      },
-      "name": "Text",
-      "order": 1.9632252822400198
-    },
     "bc7753ae-2b39-4f48-910a-7921b756487b": {
       "id": "bc7753ae-2b39-4f48-910a-7921b756487b",
       "position": [
@@ -470,7 +388,7 @@
       ],
       "geometry": null,
       "material": null,
-      "parentId": "904308fe-98f5-4c93-bf62-f39d50c6e602",
+      "parentId": "18566616-4275-4629-8c0a-4c8ebc04b31f",
       "components": {
         "1761c50d-5912-4d06-9c35-35fad7eb7b58": {
           "id": "1761c50d-5912-4d06-9c35-35fad7eb7b58",
@@ -486,12 +404,7 @@
         "verticalTextAlign": "start",
         "textAlign": "center",
         "fontSize": 32,
-        "position": "absolute",
-        "top": 10,
-        "left": 10,
-        "bottom": "",
-        "right": "",
-        "stackingOrder": -1,
+        "stackingOrder": 1,
         "color": "#ffffff",
         "font": {
           "type": "font",
@@ -521,7 +434,7 @@
       ],
       "geometry": null,
       "material": null,
-      "parentId": "904308fe-98f5-4c93-bf62-f39d50c6e602",
+      "parentId": "18566616-4275-4629-8c0a-4c8ebc04b31f",
       "components": {
         "54cb9971-28ab-439f-ad9a-9cff761b0809": {
           "id": "54cb9971-28ab-439f-ad9a-9cff761b0809",
@@ -537,20 +450,20 @@
         "verticalTextAlign": "start",
         "textAlign": "center",
         "fontSize": 32,
-        "position": "absolute",
-        "top": 12,
-        "left": 12,
-        "bottom": "",
-        "right": "",
-        "stackingOrder": -2,
+        "stackingOrder": 0,
         "color": "#000000",
         "font": {
           "type": "font",
           "font": "Roboto"
-        }
+        },
+        "position": "absolute",
+        "top": 1,
+        "left": 2,
+        "bottom": 0,
+        "right": ""
       },
       "name": "Tap Prompt Shadow",
-      "order": 11.644447501347162
+      "order": 12.286216008012012
     },
     "5ac3deca-2126-4b56-b6a2-1442d035047a": {
       "id": "5ac3deca-2126-4b56-b6a2-1442d035047a",
@@ -599,8 +512,8 @@
         "right": 20,
         "stackingOrder": 2
       },
-      "name": "Button",
-      "order": 13.280785398189009
+      "name": "Reset Button",
+      "order": 12.850773699435942
     },
     "543540e1-7086-4068-a4e3-394084c146f8": {
       "id": "543540e1-7086-4068-a4e3-394084c146f8",
@@ -642,7 +555,7 @@
       "id": "904308fe-98f5-4c93-bf62-f39d50c6e602",
       "position": [
         9.546973370717888,
-        17.058059801097308,
+        16.927148292264643,
         0
       ],
       "rotation": [
@@ -663,7 +576,9 @@
       "name": "Main Screen",
       "order": 14.958687422311806,
       "ui": {
-        "type": "overlay"
+        "type": "overlay",
+        "width": "100%",
+        "height": "100%"
       }
     },
     "1d030da3-9e4b-4e85-a1fd-11b326d96840": {
@@ -974,6 +889,182 @@
       "components": {},
       "name": "Lights",
       "order": 1.8168651715230077
+    },
+    "17b69535-b3f4-464a-96b7-8fd67a9dd0ad": {
+      "id": "17b69535-b3f4-464a-96b7-8fd67a9dd0ad",
+      "position": [
+        -8.228654929161515,
+        21.57078616351431,
+        0
+      ],
+      "rotation": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "geometry": null,
+      "material": null,
+      "components": {},
+      "ui": {
+        "flexDirection": "column",
+        "width": "100%",
+        "height": 204,
+        "type": "overlay",
+        "background": "#000000",
+        "backgroundOpacity": 0.5,
+        "alignItems": "center",
+        "justifyContent": "center",
+        "gap": 35,
+        "paddingTop": 0,
+        "paddingBottom": 0,
+        "opacity": 1,
+        "stackingOrder": 0,
+        "position": "absolute",
+        "top": "",
+        "left": "",
+        "bottom": 20,
+        "right": ""
+      },
+      "name": "InfoPanel",
+      "order": 17.693168602818822,
+      "hidden": false,
+      "parentId": "84028e73-ee70-412d-b8d4-c09bf07c655c"
+    },
+    "7d0b1616-bcd3-4069-95a0-98d178afb325": {
+      "id": "7d0b1616-bcd3-4069-95a0-98d178afb325",
+      "position": [
+        0,
+        0,
+        0
+      ],
+      "rotation": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "geometry": null,
+      "material": null,
+      "parentId": "17b69535-b3f4-464a-96b7-8fd67a9dd0ad",
+      "components": {},
+      "ui": {
+        "type": "3d",
+        "width": 100,
+        "height": 36,
+        "background": "#ad50ff",
+        "borderRadius": 18,
+        "flexDirection": "row",
+        "backgroundOpacity": 1,
+        "padding": "10",
+        "gap": "6",
+        "alignItems": "center",
+        "justifyContent": "center"
+      },
+      "name": "NavButton",
+      "order": 1
+    },
+    "975988cb-3b02-4e26-99b7-2ccf5bf05984": {
+      "id": "975988cb-3b02-4e26-99b7-2ccf5bf05984",
+      "position": [
+        0,
+        0,
+        0
+      ],
+      "rotation": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "geometry": null,
+      "material": null,
+      "parentId": "7d0b1616-bcd3-4069-95a0-98d178afb325",
+      "components": {},
+      "name": "NavButtonText",
+      "ui": {
+        "width": 50,
+        "height": 14,
+        "text": "Link",
+        "color": "#ffffff",
+        "fontSize": 16
+      },
+      "order": 2
+    },
+    "69df1d31-f60d-489c-bafb-64dac0cf4564": {
+      "id": "69df1d31-f60d-489c-bafb-64dac0cf4564",
+      "position": [
+        0,
+        0,
+        0
+      ],
+      "rotation": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "geometry": null,
+      "material": null,
+      "parentId": "17b69535-b3f4-464a-96b7-8fd67a9dd0ad",
+      "components": {},
+      "ui": {
+        "width": 246,
+        "height": 92,
+        "text": "Statua raffigurante il Nilo",
+        "color": "#ffffff",
+        "fontSize": 29,
+        "type": "3d",
+        "textAlign": "left",
+        "verticalTextAlign": "center"
+      },
+      "name": "InfoText",
+      "order": -0.8728902973045858
+    },
+    "18566616-4275-4629-8c0a-4c8ebc04b31f": {
+      "id": "18566616-4275-4629-8c0a-4c8ebc04b31f",
+      "position": [
+        0,
+        0,
+        0
+      ],
+      "rotation": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "geometry": null,
+      "material": null,
+      "parentId": "904308fe-98f5-4c93-bf62-f39d50c6e602",
+      "components": {},
+      "name": "Tap Prompt Group",
+      "order": 11.77765849143189
     }
   },
   "spaces": {
