@@ -686,17 +686,33 @@
       ],
       "geometry": null,
       "material": null,
-      "components": {},
+      "components": {
+        "f540ab31-1903-4196-926f-47f846d0fe51": {
+          "id": "f540ab31-1903-4196-926f-47f846d0fe51",
+          "name": "overlay-info-panel",
+          "parameters": {
+            "infoTextEntity": {
+              "type": "entity",
+              "id": "69df1d31-f60d-489c-bafb-64dac0cf4564"
+            },
+            "navButtonEntity": {
+              "type": "entity",
+              "id": "7d0b1616-bcd3-4069-95a0-98d178afb325"
+            },
+            "closeOnOutsideTap": true
+          }
+        }
+      },
       "ui": {
         "flexDirection": "column",
         "width": "100%",
-        "height": 204,
+        "height": 253,
         "type": "overlay",
         "background": "#000000",
         "backgroundOpacity": 0.5,
         "alignItems": "center",
         "justifyContent": "center",
-        "gap": 3,
+        "gap": 24,
         "paddingTop": 0,
         "paddingBottom": 0,
         "opacity": 1,
@@ -812,7 +828,7 @@
         "type": "3d",
         "alignItems": "center",
         "justifyContent": "center",
-        "gap": 141,
+        "gap": 169,
         "paddingTop": 6,
         "paddingBottom": 6,
         "paddingLeft": 33,
@@ -851,6 +867,232 @@
       "components": {},
       "name": "Tap Prompt Group",
       "order": 11.77765849143189
+    },
+    "3034c895-6658-460d-99a3-c02831d11144": {
+      "id": "3034c895-6658-460d-99a3-c02831d11144",
+      "position": [
+        -1.008207048572614,
+        1.066731944542712,
+        0
+      ],
+      "rotation": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "geometry": null,
+      "material": null,
+      "parentId": "84028e73-ee70-412d-b8d4-c09bf07c655c",
+      "components": {
+        "304dba18-4221-4986-a142-e45c437d0d44": {
+          "id": "304dba18-4221-4986-a142-e45c437d0d44",
+          "name": "info-3d-tag",
+          "parameters": {
+            "infoText": "uno",
+            "url": "http://www.babeledunnit.org"
+          }
+        }
+      },
+      "ui": {
+        "type": "3d",
+        "width": 100,
+        "height": 36,
+        "background": "#ad50ff",
+        "borderRadius": 18,
+        "flexDirection": "row",
+        "backgroundOpacity": 1,
+        "padding": "10",
+        "gap": "6",
+        "alignItems": "center",
+        "justifyContent": "center"
+      },
+      "name": "Button",
+      "order": 16.505832296404854
+    },
+    "4325ed56-8cb7-4adb-9434-5128883cc5b2": {
+      "id": "4325ed56-8cb7-4adb-9434-5128883cc5b2",
+      "position": [
+        -0.323,
+        0,
+        0
+      ],
+      "rotation": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "geometry": null,
+      "material": null,
+      "parentId": "3034c895-6658-460d-99a3-c02831d11144",
+      "components": {},
+      "name": "Icon",
+      "ui": {
+        "width": 16,
+        "height": 16,
+        "image": {
+          "type": "url",
+          "url": "https://cdn.8thwall.com/web/assets/sprites/8w-icon-m8j35d7y.png"
+        },
+        "backgroundOpacity": 1
+      },
+      "order": 0.0393177374368926
+    },
+    "4e6bb73e-f141-43c2-a7a2-37705064421e": {
+      "id": "4e6bb73e-f141-43c2-a7a2-37705064421e",
+      "position": [
+        0,
+        0,
+        0
+      ],
+      "rotation": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "geometry": null,
+      "material": null,
+      "parentId": "3034c895-6658-460d-99a3-c02831d11144",
+      "components": {},
+      "name": "Text",
+      "ui": {
+        "width": 50,
+        "height": 14,
+        "text": "Button",
+        "color": "#ffffff",
+        "fontSize": 16
+      },
+      "order": 1.1367443042638532
+    },
+    "19ca133b-a127-48e3-9881-78ee654efd3f": {
+      "id": "19ca133b-a127-48e3-9881-78ee654efd3f",
+      "position": [
+        0.42271657642698646,
+        1.066731944542712,
+        0
+      ],
+      "rotation": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "geometry": null,
+      "material": null,
+      "components": {
+        "42cb4723-0a49-4a59-a6be-7b98eb214795": {
+          "id": "42cb4723-0a49-4a59-a6be-7b98eb214795",
+          "name": "info-3d-tag",
+          "parameters": {
+            "infoText": "due",
+            "url": "https://www.fishbonecreek.com"
+          }
+        }
+      },
+      "ui": {
+        "type": "3d",
+        "width": 100,
+        "height": 36,
+        "background": "#ad50ff",
+        "borderRadius": 18,
+        "flexDirection": "row",
+        "backgroundOpacity": 1,
+        "padding": "10",
+        "gap": "6",
+        "alignItems": "center",
+        "justifyContent": "center"
+      },
+      "name": "Button (1)",
+      "order": 18.297496558544672,
+      "parentId": "84028e73-ee70-412d-b8d4-c09bf07c655c"
+    },
+    "46a71bbf-d4ff-4d38-a38b-57daa4c0f41c": {
+      "id": "46a71bbf-d4ff-4d38-a38b-57daa4c0f41c",
+      "position": [
+        -0.323,
+        0,
+        0
+      ],
+      "rotation": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "geometry": null,
+      "material": null,
+      "parentId": "19ca133b-a127-48e3-9881-78ee654efd3f",
+      "components": {},
+      "name": "Icon (1)",
+      "ui": {
+        "width": 16,
+        "height": 16,
+        "image": {
+          "type": "url",
+          "url": "https://cdn.8thwall.com/web/assets/sprites/8w-icon-m8j35d7y.png"
+        },
+        "backgroundOpacity": 1
+      },
+      "order": 1
+    },
+    "f6382878-260b-4b8a-ad70-691e0892602e": {
+      "id": "f6382878-260b-4b8a-ad70-691e0892602e",
+      "position": [
+        0,
+        0,
+        0
+      ],
+      "rotation": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "geometry": null,
+      "material": null,
+      "parentId": "19ca133b-a127-48e3-9881-78ee654efd3f",
+      "components": {},
+      "name": "Text (1)",
+      "ui": {
+        "width": 50,
+        "height": 14,
+        "text": "Button",
+        "color": "#ffffff",
+        "fontSize": 16
+      },
+      "order": 2
     }
   },
   "spaces": {
