@@ -22,7 +22,7 @@ ecs.registerComponent({
   schema: {
     infoTextEntity: ecs.eid,
     navButtonEntity: ecs.eid,
-    closeOnOutsideTap: 'boolean',
+    // closeOnOutsideTap: 'boolean',
   },
   stateMachine: ({ world, entity, schemaAttribute, defineState }) => {
     let infoTextEntity: ecs.Entity | null = null
@@ -45,8 +45,19 @@ ecs.registerComponent({
     const showPanel = () => {
       console.log("showing")
       entity.show()
-      navButtonEntity.enable();
 
+      
+      if(currentUrl == '')
+      {
+        navButtonEntity.disable();
+        navButtonEntity.hide();
+      }
+      else
+      {
+        navButtonEntity.enable();
+        navButtonEntity.show();
+      }
+      
       ecs.Ui.set(world, entity.eid, {
         ignoreRaycast: false,
       })
@@ -61,8 +72,7 @@ ecs.registerComponent({
       console.log("hiding")
       entity.hide()
       navButtonEntity.disable();
-
-    
+   
       ecs.Ui.set(world, entity.eid, {
         ignoreRaycast: true,
       })
@@ -88,20 +98,19 @@ ecs.registerComponent({
     }
 
     const onOutsideTap = (event: any) => {
-      console.log("tapped")
       if (entity.isHidden()) {
         return
       }
-      console.log("tapped2")
 
+      /*
       const schema = schemaAttribute.get(entity.eid)
       if (!schema.closeOnOutsideTap) {
         return
       }
-      console.log("tapped3")
+        */
+
 
       // if (!isDescendantOrSelf(world, event.target, entity.eid)) {
-              console.log("closing")
         hidePanel()
       // }
     }

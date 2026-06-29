@@ -11,9 +11,11 @@ ecs.registerComponent({
   stateMachine: ({ world, eid, schemaAttribute, defineState }) => {
     const handleTap = () => {
       const schema = schemaAttribute.get(eid)
+      /*
       if (!schema.infoText || !schema.url) {
         return
       }
+        */
       world.events.dispatch(world.events.globalId, TAG_TAPPED_EVENT, {
         infoText: schema.infoText,
         url: schema.url,
