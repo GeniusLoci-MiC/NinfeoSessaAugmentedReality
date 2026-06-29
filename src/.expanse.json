@@ -1145,6 +1145,48 @@
         }
       },
       "order": 1
+    },
+    "4108a286-94e3-49af-a906-46803a1bbff2": {
+      "id": "4108a286-94e3-49af-a906-46803a1bbff2",
+      "position": [
+        0,
+        0,
+        0
+      ],
+      "rotation": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "geometry": null,
+      "material": null,
+      "parentId": "17b69535-b3f4-464a-96b7-8fd67a9dd0ad",
+      "components": {},
+      "ui": {
+        "background": "#999999",
+        "backgroundOpacity": 0.5,
+        "width": 32,
+        "height": 20,
+        "text": "X",
+        "color": "#000000",
+        "fontSize": 17,
+        "type": "3d",
+        "borderRadius": 10,
+        "verticalTextAlign": "center",
+        "position": "absolute",
+        "top": 7,
+        "left": "",
+        "bottom": "",
+        "right": 7
+      },
+      "name": "CloseButton",
+      "order": -3.714825771618165
     }
   },
   "spaces": {
