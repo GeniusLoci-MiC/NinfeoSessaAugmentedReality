@@ -722,7 +722,7 @@
         "left": "",
         "bottom": 84,
         "right": "",
-        "ignoreRaycast": true
+        "ignoreRaycast": false
       },
       "name": "InfoPanel",
       "order": 12.064583681443603,
@@ -839,7 +839,8 @@
         "marginBottom": 0,
         "marginLeft": 0,
         "marginRight": 0,
-        "fontSize": 47
+        "fontSize": 47,
+        "ignoreRaycast": false
       },
       "name": "InfoText",
       "order": -0.8728902973045858
