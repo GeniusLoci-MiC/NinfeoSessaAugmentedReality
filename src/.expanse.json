@@ -848,7 +848,7 @@
         "marginBottom": 0,
         "marginLeft": 0,
         "marginRight": 0,
-        "fontSize": 20,
+        "fontSize": 28,
         "ignoreRaycast": false,
         "font": {
           "type": "font",
@@ -997,7 +997,7 @@
           "id": "e2ac7c74-8c05-4948-b611-3fa40e5e4012",
           "name": "info-3d-tag",
           "parameters": {
-            "infoText": "Rappresentazione del fiume Nilo",
+            "infoText": "Statua di figura maschile",
             "url": "https://skfb.ly/pL9Xo"
           }
         }
@@ -1084,7 +1084,7 @@
           "id": "e2ac7c74-8c05-4948-b611-3fa40e5e4012",
           "name": "info-3d-tag",
           "parameters": {
-            "infoText": "Rappresentazione del fiume Nilo",
+            "infoText": "Frammento di statua",
             "url": ""
           }
         }
